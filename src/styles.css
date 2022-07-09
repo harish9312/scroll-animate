@@ -2,10 +2,16 @@
   font-family: sans-serif;
   text-align: center;
 }
+
 .main {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 100px;
   min-height: 100%;
+}
+
+.bottom {
+  min-height: 100vh;
+  background-color: black;
 }
